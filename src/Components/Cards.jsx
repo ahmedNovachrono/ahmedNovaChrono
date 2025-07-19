@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 
 const Cards = () => {
+    const API = import.meta.env.VITE_API;
     const [data, setData] = useState([]);
     const [error, setError] = useState("")
     useEffect(() => {
        const fetchtData = async () => {
          try {
-            const res  = await fetch("http://localhost:3005/knowledg");
+            const res  = await fetch(API);
           const  data = await res.json();
            setData(data);
            
