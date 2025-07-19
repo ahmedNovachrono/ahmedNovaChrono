@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve:api": "cross-env PORT=3005 json-server --watch data/db.json --port $PORT"
+    "serve:api": "cross-env PORT=3005 json-server --watch data/cardsData.json --port $PORT"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

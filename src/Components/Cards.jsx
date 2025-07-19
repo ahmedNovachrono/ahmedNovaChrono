@@ -8,6 +8,7 @@ const Cards = () => {
        const fetchtData = async () => {
          try {
             const res  = await fetch(API);
+            console.log(res)
           const  data = await res.json();
            setData(data);
            
