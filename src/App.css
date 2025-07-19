@@ -1,0 +1,492 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #050715;
+    overflow-x: hidden;
+}
+
+#root{
+    min-width: 100vw;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 3;
+}
+
+
+.hero .hero-main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5rem;
+    align-self: center;
+    gap: 10vw;
+}
+
+
+.hero-main-section .anim{
+    width: max(10rem, 25vw);
+}
+
+.hero-main-section span{
+    color: red;
+        text-shadow:
+            0 0 5px red,
+            0 0 10px red,
+            0 0 15px red,
+            0 0 30px red,
+            0 0 40px red;
+}
+
+.hero-main-section h1{
+    font-size: max(1.3rem, 3vw);
+    width: max(10rem, 30vw);
+    align-self: center;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.header{
+    position: fixed;
+    max-width: 100vw;
+    min-height: 3rem;
+    top: 2rem;
+    right: 8vw;
+    z-index: 100000;
+}
+
+.header ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 12vw;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.header li{
+    cursor: pointer;
+    font-size: clamp(0.9rem, 1.2vw, 2rem);
+}
+
+.header ul .active{
+    text-decoration: underline;
+    color: red;
+    text-shadow:
+            0 0 5px red,
+            0 0 10px red,
+            0 0 15px red,
+            0 0 30px red,
+            0 0 40px red;
+}
+
+
+
+.nav{
+background-color: rgba(255, 255, 255, 0.136);
+    width: 40px;
+    height: 30rem;
+    align-self: center;
+    border-radius: 0 10px 10px 0;
+    position: fixed;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav li svg{
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+
+.nav li svg:hover{
+    transform: scale(1.4);
+}
+
+.nav li:nth-child(1):hover{
+    color: rgb(220, 36, 134);
+}
+.nav li:nth-child(2):hover {
+    color: rgb(104, 104, 104);
+}
+.nav li:nth-child(3):hover {
+    color: rgb(15, 89, 238);
+}
+.nav li:nth-child(4):hover {
+    color: rgb(83, 252, 4);
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 20rem;
+    height: 20rem;
+    top: -10rem;
+    left: 0;
+    filter: blur(150px);
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    bottom: -10rem;
+    right: 0;
+    filter: blur(150px);
+    overflow: hidden;
+    z-index: 2;
+}
+
+.nav p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    word-spacing: 4px;
+    
+}
+
+.nav ul{
+    width: 100%;
+    height: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav ul li{
+    font-size: 1.2rem;
+}
+
+
+/* Bio Start */
+.bio{
+    max-width: 100vw;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    z-index: 4;
+    position: relative;
+
+}
+
+.bio .bio-images{
+    width: 50%;
+}
+
+.bio .bio-images img{
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    
+}
+
+
+
+.bio-dis{
+    width: 50%;
+    font-size: max(5px, 0.8vw);
+}
+
+.bio-dis span{
+    font-size: max(0.7rem, 1.1vw);
+    color: aqua;
+    text-shadow: 
+    0 0 5px aqua,
+    0 0 10px aqua,
+    0 0 15px aqua,
+    0 0 30px aqua,
+    0 0 40px aqua;
+}
+
+
+
+
+/* Bio End */
+
+
+
+/* Cards Start */
+
+.cards{
+    width: 100%;
+    min-height: 60vh;
+}
+
+.cards h1{
+    text-align: center;
+    text-shadow:
+            0 0 5px #47f900,
+            0 0 10px #47f900,
+            0 0 15px #47f900,
+            0 0 30px #47f900,
+            0 0 40px #47f900;
+        color: #47f900;
+}
+
+.cards ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    padding: 5rem;
+}
+
+.cards ul li{
+    width: 15rem;
+    min-height: 23rem;
+    background-color: red;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.cards img{
+    width: 60px;
+    height: 60px;
+    margin-top: 1.5rem;
+}
+
+.cards li p{
+    margin-top: 1rem;
+    font-size: 18px;
+    width: 15rem;
+    text-align: center;
+}
+
+/* Cards End */
+
+
+/* Games Start */
+
+.games{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.games h1{
+    text-align: center;
+    margin-bottom: 10rem;
+    text-shadow:
+            0 0 100px #764abc,
+            0 0 10px #764abc,
+            0 0 15px #764abc,
+            0 0 30px #764abc,
+            0 0 40px #764abc;
+            color: #8d62d1;
+}
+
+
+.games ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+
+.games ul li{
+        margin: 20px;
+    max-width: 90%;
+    min-height: 25rem;
+    background-color: #050715;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:
+            0 0 50px rgb(0, 215, 226),
+            0 0 5px rgb(0, 215, 226),
+            0 0 10px rgb(0, 215, 226),
+            0 0 15px rgb(0, 215, 226),
+            0 0 10px rgb(0, 215, 226);
+    
+}
+
+
+.games ul li img{
+    max-width: calc(100% - 10px);
+    max-height: 15rem;
+    border-radius: 10px;
+}
+
+
+.games ul li p {
+    font-size: max(1rem, 1.3vw);
+    max-width: max(20rem, 20vw);
+}
+/* Games End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medi Qeury */
+@media (max-width: 1024px) {
+
+    .hero::before {
+            content: "";
+            position: absolute;
+            background-color: red;
+            width: 15rem;
+            height: 15rem;
+            top: -10rem;
+            left: -3em;
+            filter: blur(150px);
+            z-index: 2;
+        }
+
+
+    .hero::after {
+            content: "";
+            position: absolute;
+            background-color: white;
+            width: 11rem;
+            height: 8rem;
+            bottom: 7rem;
+            right: 0;
+            filter: blur(150px);
+            overflow: hidden;
+            z-index: 2;
+        }
+
+
+    .bio{
+        align-items: start;
+        /* min-height: 100vh; */
+    }
+
+
+    .bio .bio-images{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+  
+
+    .bio .bio-dis .bio-h1 {
+        font-size: 3.3em;
+        min-width: 80vw;
+        min-height: 61vh;
+        transform: translate(-48px, 28px);
+    }
+        .nav {
+            background-color: rgba(255, 255, 255, 0.136);
+            width: 40px;
+            height: 30rem;
+            align-self: center;
+            border-radius: 0 10px 10px 0;
+            position: fixed;
+            left: 0px;
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+            transform: scale(0.7) translate(-12px, 0px);
+        }
+}
+
+@media (max-width: 400px){
+    .bio{
+        text-align: center;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 370px) {
+    .hero .hero-main-section{
+        gap: 5vw;
+    }
+
+    .bio .bio-dis .bio-h1{
+        font-size: 3.3em;
+    min-width: 88vw;
+    min-height: 61vh;
+    transform: translate(-48px, 28px);
+}
+}
+
+@media (max-width: 336px) {
+
+    .bio .bio-dis span {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 310px) {
+
+    .bio .bio-dis span {
+        font-size: 1.5em;
+    }
+}
