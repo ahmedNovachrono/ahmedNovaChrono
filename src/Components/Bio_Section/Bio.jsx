@@ -53,7 +53,7 @@ const Bio = () => {
         </div>
         <div className="bio-dis">
             <span><h1>About Me</h1></span>
-            <h1 className="bio-h1">My name is Ahmed safy aldean Hafiz, 08/10/2023 at this date I'm 18 years old, I'm a guy who's obsessed with technolgy.. In my career I learned, Game Development & Web Development specifically the front-end, And a little bit of animations both dimensional 2D, 3D, The programming languages I learned are, c, c#, JavaScript.. add to them HTML & CSS even if they aren't programming languages, HTML is a mark up language, CSS is a style sheet language, For animating I used Blender for 3D, And moho for 2D, But I really didn't like animtion world as I did with gameDev and webDev.
+            <h1 className="bio-h1">My name is Ahmed safy aldean Hafiz, 07/20/2025 at this date I'm 15 years old, I'm a guy who's obsessed with technolgy.. In my career I learned, Game Development & Web Development specifically the front-end, And a little bit of animations both dimensional 2D, 3D, The programming languages I learned are, c, c#, JavaScript.. add to them HTML & CSS even if they aren't programming languages, HTML is a mark up language, CSS is a style sheet language, For animating I used Blender for 3D, And moho for 2D, But I really didn't like animtion world as I did with gameDev and webDev.
 
 </h1>
         </div>
