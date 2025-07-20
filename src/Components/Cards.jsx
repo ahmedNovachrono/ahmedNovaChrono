@@ -30,7 +30,7 @@ const Cards = () => {
                     <img src={card.img} alt="" />
                     <p>{card.dis}</p>
                 </li>
-                )) : error + " Data, Something is Wrong With The API"}
+                )) : error + " Data, Something is Wrong With The API, Sorry About that I'm Hosting My API On a Free Hosting Service"}
             </ul>
         </div>
      );
