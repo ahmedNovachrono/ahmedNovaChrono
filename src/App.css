@@ -42,13 +42,16 @@ body {
 
 .hero-main-section span{
     color: red;
-        text-shadow:
-            0 0 5px red,
-            0 0 10px red,
-            0 0 15px red,
-            0 0 30px red,
-            0 0 40px red;
+            /* animation: spanAnim 5s ease-in-out reverse forwards infinite; */
+            text-shadow:
+                    0 0 5px red,
+                    0 0 10px red,
+                    0 0 15px red,
+                    0 0 30px red,
+                    0 0 40px red;
 }
+
+
 
 .hero-main-section h1{
     font-size: max(1.3rem, 3vw);
@@ -221,9 +224,10 @@ background-color: rgba(255, 255, 255, 0.136);
 
 
 
-.bio-dis{
+.bio-dis    {
     width: 50%;
     font-size: max(5px, 0.8vw);
+    
 }
 
 .bio-dis span{
@@ -281,6 +285,8 @@ background-color: rgba(255, 255, 255, 0.136);
     background-color: red;
     padding-top: 10px;
     border-radius: 10px;
+    /* transform: translate(-1000em);
+    filter: blur(50); */
 }
 
 .cards img{

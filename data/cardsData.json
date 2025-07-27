@@ -5,70 +5,70 @@
     "dis": "HTML (HyperText Markup Language) is the standard language used to create and structure pages on the web.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "color": "#e34c26",
-    "id": "d32c"
+    "id": "1"
   },
   {
     "title": "CSS",
     "dis": "CSS (Cascading Style Sheets) is used to style and layout HTML elements, including colors, spacing, and responsiveness.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     "color": "#264de4",
-    "id": "7f21"
+    "id": "2"
   },
   {
     "title": "JS",
     "dis": "JavaScript is a programming language that adds interactivity, dynamic behavior, and logic to websites and web applications.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     "color": "#f7df1e",
-    "id": "2317"
+    "id": "3"
   },
   {
     "title": "React",
     "dis": "React is a JavaScript library for building fast and interactive user interfaces using a component-based approach.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     "color": "#20232a",
-    "id": "7112"
+    "id": "4"
   },
   {
     "title": "Redux",
     "dis": "Redux is a predictable state container for JavaScript apps, often used with React to manage complex application state.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
     "color": "#593d88",
-    "id": "23af"
+    "id": "5"
   },
   {
     "title": "Express JS",
     "dis": "Express.js is a minimal and flexible Node.js web application framework that provides robust features for building APIs and web apps.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     "color": "#d7d7d7ee ",
-    "id": "3609"
+    "id": "6"
   },
   {
     "title": "Node JS",
     "dis": "Node.js is a JavaScript runtime that allows developers to run JavaScript on the server side, enabling full-stack development with JS.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     "color": "#68a063",
-    "id": "2a65"
+    "id": "7"
   },
   {
     "title": "MongoDB",
     "dis": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, making it ideal for modern web applications.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     "color": "#3fa037",
-    "id": "c614"
+    "id": "8"
   },
   {
   "title": "Unity",
   "dis": "Unity is a cross-platform game engine used for developing both 2D and 3D games, simulations, and interactive experiences.",
   "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
   "color": "#222c37",
-  "id": "u821"
+  "id": "9"
 },
 {
   "title": "Blender",
   "dis": "Blender is a powerful open-source tool for 3D modeling, animation, rendering, and visual effects used in games and film.",
   "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
   "color": "#b84d09",
-  "id": "b329"
+  "id": "10"
 }
 
 ]

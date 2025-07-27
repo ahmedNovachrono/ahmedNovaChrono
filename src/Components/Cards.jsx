@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Cards = () => {
     const API = import.meta.env.VITE_API;
@@ -17,6 +17,7 @@ const Cards = () => {
         }
        }
        fetchtData()
+
     }, [])
 
  
